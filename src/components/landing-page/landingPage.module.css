@@ -1,0 +1,64 @@
+body .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--background);
+
+    margin: 0 0 6rem;
+    padding: 0;
+}
+
+.container .asideLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.container .asideLeft img {
+    width: 77%;
+}
+
+.container .asideRight {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 4rem;
+    width: 50%;
+}
+
+.container .asideRight img.logo {
+    width: 50%;
+}
+
+.container .asideRight div.phrases {
+    position: absolute;
+    margin-top: 7rem;
+}
+
+.container .asideRight div.phrases h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.container .asideRight div.phrases p {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.container .asideRight div.ergonomy img {
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.container .asideLeft p img:hover{
+    filter: brightness(1.1);
+}

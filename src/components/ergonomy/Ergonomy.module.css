@@ -1,0 +1,54 @@
+.container {
+    margin: 5rem 10px 10px;
+}
+
+.introduction {
+    margin-left: 8rem;
+    font-family: Poppins, sans-serif;
+}
+
+.introduction h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.p1 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 75%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--blue-soft);
+
+    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 2px solid var(--blue);
+}
+
+.p2 {
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-top: 2.5rem;
+    margin-bottom: 7rem;
+}
+
+.p2 span {
+    color: var(--blue);
+}
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tips strong {
+    font-family: Inter, sans-serif;
+    font-size: 3.1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--blue-soft);
+    margin-bottom: 2rem;
+}
