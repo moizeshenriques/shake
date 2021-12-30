@@ -1,0 +1,36 @@
+.completedChallengesContainer {
+    margin: 2.5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d7d8da;
+
+    font-weight: 500;
+}
+
+.completedChallengesContainer .level {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.completedChallengesContainer .level p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.completedChallengesContainer .level p img {
+    margin-right: 0.5rem;
+}
+
+.completedChallengesContainer .challengesCompleted {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.completedChallengesContainer .challengesCompleted span:first-child {
+    font-size: 1.25rem;
+}
+
+.completedChallengesContainer .challengesCompleted span:last-child {
+    font-size: 1.5rem;
+}
